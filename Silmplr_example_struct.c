@@ -15,7 +15,7 @@ int main() {
 
     // Dinamikos xwros gia ena struct movie
     N = (struct movie*) malloc(sizeof(struct movie));
-    if (mPtr == NULL) { // elegxos epityxias desmeysis mnimis
+    if (N == NULL) { // elegxos epityxias desmeysis mnimis
         printf("Memory allocation failed\n");
         return 1;
     }
