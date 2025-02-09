@@ -23,7 +23,7 @@ int main() {
             printf("Enter code: ");
             scanf("%d", &N.code);
             printf("Enter title: ");
-            fgets(N.title, 50, stdin);
+            fgets(&N.title, 50, stdin);
             printf("Enter year: ");
             scanf("%d", &N.year);
             printf("Movie inserted successfully\n");
